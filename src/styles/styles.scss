@@ -1,0 +1,19 @@
+.container {
+  @apply mx-auto px-6 md:px-4 lg:px-2;
+}
+
+body {
+  background: theme('colors.background');
+  color: theme('colors.foreground');
+}
+
+.auth-form {
+  // content: '';
+  // @apply absolute left-1/2 top-1/2 h-2/3 w-1/2 -translate-x-1/2 -translate-y-1/2;
+  background-image: url('/assets/pattern-1.png');
+  // background-image: radial-gradient(
+  //   circle closest-side,
+  //   theme('colors.primary.DEFAULT'),
+  //   transparent
+  // );
+}
